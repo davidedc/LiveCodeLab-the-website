@@ -1,0 +1,40 @@
+body {
+	background:#fff;
+	color:#333;
+	font: 12px/22px verdana, arial, sans-serif;
+	height:100%;
+	margin:0 auto;
+	width:100%;
+	overflow	: hidden;
+	padding		: 0;
+}
+
+
+@font-face {
+ font-family: MavenPro-Medium;
+ src: url("fonts/MavenPro-Medium.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MavenPro-Medium;
+ src: url("fonts/MavenPro-Medium.ttf") /* TTF file for CSS3 browsers */
+}
+
+h3 {color:#3a6d8c; font-size:22px; line-height:26px; font-weight:normal; margin:0 0 8px 0;}
+img {border:0;}
+h1 {color:#666; letter-spacing:-1px; font-weight:normal;}
+h1 span {color:#444; font-weight:bold;}
+
+.top {
+	position	: absolute;
+	top		: 0px;
+	width		: 100%;
+	padding		: 5px;
+	text-align	: center;
+}
+
+.bottom {
+	position	: absolute;
+	bottom		: 0px;
+	right		: 5px;
+	padding		: 5px;
+}
